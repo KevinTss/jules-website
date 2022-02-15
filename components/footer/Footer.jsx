@@ -1,21 +1,21 @@
 import { FooterContainer } from './style';
-import { Text, Link } from '../ui';
+
 import { Wrapper } from '../../styles';
 
 export default function Footer() {
   return (
     <FooterContainer>
       <Wrapper>
-        <Text>
+        <p>
           Copyright &copy; {new Date().getFullYear()} Saleskonsult, all rights
           reserved
-        </Text>
-        <Text>
+        </p>
+        <p>
           Powered by
-          <Link href='https://screenside.be/' target='_blank'>
+          <a href='https://screenside.be/' target='_blank' rel='noreferrer'>
             ScreenSide
-          </Link>
-        </Text>
+          </a>
+        </p>
       </Wrapper>
     </FooterContainer>
   );

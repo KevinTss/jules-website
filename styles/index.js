@@ -33,3 +33,9 @@ export const Section = styled.section`
   width: 100%;
   margin: auto;
 `;
+
+export const Button = styled.button``;
+
+export const Text = styled.p`
+  font-size: 24px;
+`;
