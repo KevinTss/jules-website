@@ -19,7 +19,7 @@ export default function MainMessage() {
             <CalendlyCTA>Book a call with me</CalendlyCTA>
           </Left>
           <ImageContainer>
-            <img src='/background.jpg' alt='Jules Kerner' />
+            <img src='/jules-website/background.jpg' alt='Jules Kerner' />
           </ImageContainer>
         </Container>
       </Wrapper>
