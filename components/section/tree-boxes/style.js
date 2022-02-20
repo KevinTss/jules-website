@@ -6,11 +6,16 @@ export const Container = styled.div`
   grid-gap: 30px;
   width: 100%;
   margin: 100px 0;
+
+  @media only screen and (max-width: 768px) {
+    grid-template-columns: none;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
 `;
 
 export const Box = styled.div`
   padding: 5px;
-  background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
+  background-image: linear-gradient(to right, #09203f 0%, #537895 100%);
   border-radius: 15px;
   position: relative;
 `;
@@ -22,6 +27,7 @@ export const InnerBox = styled.div`
   border-radius: 10px;
   padding: 50px 20px;
   text-align: center;
+  height: 100%;
 `;
 
 export const Sentence = styled.p`

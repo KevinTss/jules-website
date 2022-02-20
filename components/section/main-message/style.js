@@ -20,9 +20,17 @@ export const Left = styled.div`
   padding: 150px 0;
   margin-left: 50px;
 
+  @media only screen and (max-width: 768px) {
+    margin-left: 0;
+  }
+
   p {
     margin-bottom: 40px;
     color: white;
+
+    @media only screen and (max-width: 768px) {
+      margin-bottom: 20px;
+    }
   }
 `;
 
@@ -31,6 +39,11 @@ export const Heading = styled.h1`
   margin-bottom: 40px;
   color: white;
   font-weight: 700;
+
+  @media only screen and (max-width: 768px) {
+    font-size: 38px;
+    margin-bottom: 20px;
+  }
 `;
 
 export const ImageContainer = styled.div`
