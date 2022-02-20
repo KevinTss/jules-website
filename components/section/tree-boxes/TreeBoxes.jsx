@@ -1,6 +1,4 @@
-import Image from 'next/image';
-
-import { Container, Box, Sentence } from './style';
+import { Container, Box, InnerBox, Sentence } from './style';
 import { Wrapper, Text } from '../../../styles';
 
 export default function TreeBoxes() {
@@ -8,18 +6,22 @@ export default function TreeBoxes() {
     <Wrapper>
       <Container>
         <Box>
-          <Text>Large departments</Text>
-          <Sentence>Hard to connect and meet with decision makers</Sentence>
+          <InnerBox>
+            <Sentence>Large departments</Sentence>
+            <Text>Hard to connect and meet with decision makers</Text>
+          </InnerBox>
         </Box>
         <Box>
-          <Text>Complex buying-process</Text>
-          <Sentence>Many international standards to meet expectations</Sentence>
+          <InnerBox>
+            <Sentence>Complex buying-process</Sentence>
+            <Text>Many international standards to meet expectations</Text>
+          </InnerBox>
         </Box>
         <Box>
-          <Text>High expectations</Text>
-          <Sentence>
-            Risk-averse by obligations and need top service-level
-          </Sentence>
+          <InnerBox>
+            <Sentence>High expectations</Sentence>
+            <Text>Risk-averse by obligations and need top service-level</Text>
+          </InnerBox>
         </Box>
       </Container>
     </Wrapper>

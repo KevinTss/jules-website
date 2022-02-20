@@ -1,21 +1,17 @@
 import { openPopupWidget } from 'react-calendly';
 
-export default function CalendlyCTA() {
+import { Button } from '../../styles';
+
+export default function CalendlyCTA({ children }) {
   return (
-    <div>
-      <button
-        onClick={() =>
-          openPopupWidget({
-            url: 'https://calendly.com/kevin-tassi',
-            text: 'Schedule time with me',
-            color: 'red',
-            textColor: 'blue',
-            branding: true,
-          })
-        }
-      >
-        Custom Button
-      </button>
-    </div>
+    <Button
+      onClick={() =>
+        openPopupWidget({
+          url: 'https://calendly.com/kevin-tassi',
+        })
+      }
+    >
+      {children}
+    </Button>
   );
 }

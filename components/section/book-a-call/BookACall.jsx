@@ -4,11 +4,11 @@ import { Container } from './style';
 import { Wrapper } from '../../../styles';
 import CalendlyCTA from '../../calendly-cta';
 
-export default function CenterText() {
+export default function BookACall() {
   return (
     <Wrapper>
       <Container>
-        <CalendlyCTA />
+        <CalendlyCTA>{`Book a call`}</CalendlyCTA>
       </Container>
     </Wrapper>
   );

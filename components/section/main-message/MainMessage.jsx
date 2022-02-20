@@ -1,7 +1,8 @@
 import Image from 'next/image';
 
 import { Section, Container, Left, Heading, ImageContainer } from './style';
-import { Wrapper, Button, Text } from '../../../styles';
+import { Wrapper, Text } from '../../../styles';
+import CalendlyCTA from '../../calendly-cta';
 
 export default function MainMessage() {
   return (
@@ -17,7 +18,7 @@ export default function MainMessage() {
               But the truth is that closing deals with large organisations can
               be really painful because they are…
             </Text>
-            <Button>Book a call with me</Button>
+            <CalendlyCTA>Book a call with me</CalendlyCTA>
           </Left>
           <ImageContainer>
             <Image src='/background.jpg' alt='Jules Kerner' layout='fill' />
