@@ -1,5 +1,3 @@
-import Image from 'next/image';
-
 import { Section, Container, Left, Heading, ImageContainer } from './style';
 import { Wrapper, Text } from '../../../styles';
 import CalendlyCTA from '../../calendly-cta';
@@ -21,7 +19,7 @@ export default function MainMessage() {
             <CalendlyCTA>Book a call with me</CalendlyCTA>
           </Left>
           <ImageContainer>
-            <Image src='/background.jpg' alt='Jules Kerner' layout='fill' />
+            <img src='/background.jpg' alt='Jules Kerner' />
           </ImageContainer>
         </Container>
       </Wrapper>

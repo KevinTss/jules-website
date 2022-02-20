@@ -1,5 +1,3 @@
-import Image from 'next/image';
-
 import { Section, Container } from './style';
 import { Wrapper, Text } from '../../../styles';
 

@@ -4,6 +4,7 @@ export const Section = styled.section`
   width: 100%;
   min-height: 80vh;
   position: relative;
+  overflow: hidden;
 `;
 
 export const Container = styled.div`

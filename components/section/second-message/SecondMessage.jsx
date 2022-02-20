@@ -1,5 +1,3 @@
-import Image from 'next/image';
-
 import { Container, Right, SmallHeading } from './style';
 import { Wrapper, Text } from '../../../styles';
 
