@@ -7,7 +7,7 @@ export default function CalendlyCTA({ children }) {
     <Button
       onClick={() =>
         openPopupWidget({
-          url: 'https://calendly.com/kevin-tassi',
+          url: 'https://calendly.com/jules-230',
         })
       }
     >

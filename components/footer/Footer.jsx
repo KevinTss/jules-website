@@ -11,7 +11,7 @@ export default function Footer() {
           reserved
         </p>
         <p>
-          Powered by
+          Powered by{' '}
           <a href='https://screenside.be/' target='_blank' rel='noreferrer'>
             ScreenSide
           </a>
