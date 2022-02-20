@@ -34,7 +34,16 @@ export const Section = styled.section`
   margin: auto;
 `;
 
-export const Button = styled.button``;
+export const Button = styled.button`
+  border-radius: 50px;
+  background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
+  border: none;
+  padding: ${({ theme }) => `${theme.spacing.l} ${theme.spacing.xl}`};
+  color: white;
+  font-weight: 700;
+  font-size: 22px;
+  cursor: pointer;
+`;
 
 export const Text = styled.p`
   font-size: 24px;

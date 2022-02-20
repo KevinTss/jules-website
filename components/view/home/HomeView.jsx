@@ -4,6 +4,7 @@ import { Main } from './style';
 import MainMessageSection from '../../section/main-message';
 import TreeBoxes from '../../section/tree-boxes';
 import CenterText from '../../section/center-text';
+import BookACall from '../../section/book-a-call';
 import SecondMessageSection from '../../section/second-message';
 
 export default function HomeView() {
@@ -15,6 +16,7 @@ export default function HomeView() {
         <TreeBoxes />
         <CenterText />
         <SecondMessageSection />
+        <BookACall />
       </Main>
       <Footer />
     </>

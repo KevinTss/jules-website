@@ -42,13 +42,18 @@ class MyDocument extends Document {
             crossOrigin='true'
           />
           <link
-            href='https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap'
+            href='https://fonts.googleapis.com/css2?family=Inter:wght@300;700&display=swap'
             rel='stylesheet'
           />
         </Head>
         <body>
           <Main />
           <div id='portal-root' />
+          {/* <script
+            type='text/javascript'
+            src='https://assets.calendly.com/assets/external/widget.js'
+            async
+          /> */}
           <NextScript />
         </body>
       </Html>

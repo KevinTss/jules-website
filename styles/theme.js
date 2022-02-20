@@ -6,7 +6,7 @@ export const lightTheme = {
     border: '#f7f7f7',
   },
   font: {
-    family: `'Lato', sans-serif`,
+    family: `'Inter', sans-serif`,
     size: {
       xl: '3rem',
       l: '1.5rem',

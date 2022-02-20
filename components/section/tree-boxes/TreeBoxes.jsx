@@ -16,8 +16,8 @@ export default function TreeBoxes() {
           <Sentence>Many international standards to meet expectations</Sentence>
         </Box>
         <Box>
+          <Text>High expectations</Text>
           <Sentence>
-            <Text>High expectations</Text>
             Risk-averse by obligations and need top service-level
           </Sentence>
         </Box>
