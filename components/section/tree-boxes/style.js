@@ -14,7 +14,7 @@ export const Container = styled.div`
 `;
 
 export const Box = styled.div`
-  padding: 5px;
+  padding: 4px;
   background-image: linear-gradient(to right, #09203f 0%, #537895 100%);
   border-radius: 15px;
   position: relative;
@@ -32,6 +32,5 @@ export const InnerBox = styled.div`
 
 export const Sentence = styled.p`
   font-size: 24px;
-  margin-bottom: 30px;
   font-weight: 700;
 `;

@@ -28,6 +28,12 @@ export const Wrapper = styled.div`
   padding: 0 ${({ theme }) => theme.spacing.m};
 `;
 
+export const Container = styled.div`
+  display: flex;
+  justify-content: center;
+  width: 100%;
+`;
+
 export const Section = styled.section`
   max-width: 1440px;
   width: 100%;
@@ -43,6 +49,7 @@ export const Button = styled.button`
   font-weight: 700;
   font-size: 22px;
   cursor: pointer;
+  text-decoration: none;
 `;
 
 export const Text = styled.p`

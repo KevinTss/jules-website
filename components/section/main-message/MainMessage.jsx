@@ -1,6 +1,5 @@
 import { Section, Container, Left, Heading, ImageContainer } from './style';
 import { Wrapper, Text } from '../../../styles';
-import CalendlyCTA from '../../calendly-cta';
 
 export default function MainMessage() {
   return (
@@ -9,14 +8,13 @@ export default function MainMessage() {
         <Container>
           <Left>
             <Heading>
-              I help companies to accelerate revenue growth by closing large
-              deals
+              We help Tech companies to accelerate their revenue growth by
+              closing large deals
             </Heading>
             <Text>
-              But the truth is that closing deals with large organisations can
-              be really painful because they are…
+              Closing large deals efficiently is not an easy thing because
+              companies are…
             </Text>
-            <CalendlyCTA>Book a call with me</CalendlyCTA>
           </Left>
           <ImageContainer>
             <img src='/jules-website/background.jpg' alt='Jules Kerner' />

@@ -49,11 +49,6 @@ class MyDocument extends Document {
         <body>
           <Main />
           <div id='portal-root' />
-          {/* <script
-            type='text/javascript'
-            src='https://assets.calendly.com/assets/external/widget.js'
-            async
-          /> */}
           <NextScript />
         </body>
       </Html>

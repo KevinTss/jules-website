@@ -1,5 +1,5 @@
 import { Container, Box, InnerBox, Sentence } from './style';
-import { Wrapper, Text } from '../../../styles';
+import { Wrapper } from '../../../styles';
 
 export default function TreeBoxes() {
   return (
@@ -7,20 +7,17 @@ export default function TreeBoxes() {
       <Container>
         <Box>
           <InnerBox>
-            <Sentence>Large departments</Sentence>
-            <Text>Hard to connect and meet with decision makers</Text>
+            <Sentence>Risk-averse and have huge expectations</Sentence>
           </InnerBox>
         </Box>
         <Box>
           <InnerBox>
-            <Sentence>Complex buying-process</Sentence>
-            <Text>Many international standards to meet expectations</Text>
+            <Sentence>Hard to connect with many decision-makers</Sentence>
           </InnerBox>
         </Box>
         <Box>
           <InnerBox>
-            <Sentence>High expectations</Sentence>
-            <Text>Risk-averse by obligations and need top service-level</Text>
+            <Sentence>Following complex security and legal standards</Sentence>
           </InnerBox>
         </Box>
       </Container>

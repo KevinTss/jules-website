@@ -16,7 +16,7 @@ export const Left = styled.div`
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  max-width: 660px;
+  max-width: 900px;
   padding: 150px 0;
   margin-left: 50px;
 
@@ -35,7 +35,7 @@ export const Left = styled.div`
 `;
 
 export const Heading = styled.h1`
-  font-size: 72px;
+  font-size: 68px;
   margin-bottom: 40px;
   color: white;
   font-weight: 700;
