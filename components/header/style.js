@@ -42,3 +42,9 @@ export const NavLinkEl = styled.a`
     background-color: ${({ theme }) => theme.color.background};
   }
 `;
+
+export const Image = styled.img`
+  width: 60px;
+  height: 50px;
+  object-fit: contain;
+`;

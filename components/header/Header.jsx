@@ -7,6 +7,7 @@ import {
   Items,
   Item,
   NavLinkEl,
+  Image,
 } from './style';
 import { Wrapper } from '../../styles';
 
@@ -15,6 +16,7 @@ export default function Header() {
     <HeaderEl>
       <Wrapper>
         <Container>
+          <Image src='/logo.png' alt='Sales Konsul logo' />
           <Nav>
             <Items>
               <Item>
