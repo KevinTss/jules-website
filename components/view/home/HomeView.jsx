@@ -1,7 +1,7 @@
 import { Main } from './style';
 import { Wrapper, Container, Button } from '../../../styles';
 import BookACall from '../../section/book-a-call';
-import CenterText from '../../section/center-text';
+// import CenterText from '../../section/center-text';
 import Footer from '../../footer';
 import Head from '../../head';
 import Header from '../../header';
@@ -25,7 +25,7 @@ export default function HomeView() {
             </Link>
           </Container>
         </Wrapper>
-        <CenterText />
+        {/* <CenterText /> */}
         <SecondMessageSection />
         <BookACall />
       </Main>

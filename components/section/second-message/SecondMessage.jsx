@@ -1,18 +1,34 @@
-import { Container, Right, SmallHeading } from './style';
+import { Container, Left, Right, Image, SmallHeading, Ul, Li } from './style';
 import { Wrapper, Text } from '../../../styles';
 
 export default function SecondMessage() {
   return (
     <Wrapper>
       <Container>
+        <Left>
+          <Image src='bg2.jpeg' alt='Sales Konsul' />
+        </Left>
         <Right>
           <SmallHeading>
-            Nail the niche and maximise revenues by focusing on value-creation
+            We help grow your sales capacity within weeks, to win large deals
+            and grow faster
           </SmallHeading>
           <Text>
-            But the truth is that nailing your niche require more that 1000s
-            mails and 100s of phone calls because…
+            Building a top sales system to nail your niche (better than others)
+            takes more than 1000s emails and 100s phone calls… In fact, you want
           </Text>
+          <Ul>
+            <Li>
+              to make every touchpoint (content) valuable and meaningful to THEM
+            </Li>
+            <Li>
+              to align your verticals’ “readiness to buy” with THEIR pressing
+              issues
+            </Li>
+            <Li>
+              to match your pricing model to what THEY value the most from you
+            </Li>
+          </Ul>
         </Right>
       </Container>
     </Wrapper>

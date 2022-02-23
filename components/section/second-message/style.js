@@ -5,21 +5,41 @@ export const Container = styled.div`
   width: 100%;
   position: relative;
   justify-content: flex-end;
-  margin: 100px 0;
+  margin: 150px 0;
+`;
+
+export const Left = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 `;
 
 export const Right = styled.div`
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  max-width: 660px;
+  padding: 50px 0;
 
   p {
     margin-bottom: 40px;
   }
 `;
 
-export const SmallHeading = styled.h1`
+export const SmallHeading = styled.h2`
   font-size: 34px;
-  margin: 60px 0 40px 0;
+  margin-bottom: 40px;
+`;
+
+export const Image = styled.img`
+  width: 80%;
+  height: 100%;
+  object-fit: cover;
+`;
+
+export const Ul = styled.ul`
+  padding-left: 30px;
+`;
+
+export const Li = styled.li`
+  margin: 10px 0;
 `;
