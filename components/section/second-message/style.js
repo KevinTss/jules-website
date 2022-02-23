@@ -6,6 +6,10 @@ export const Container = styled.div`
   position: relative;
   justify-content: flex-end;
   margin: 150px 0;
+
+  @media only screen and (max-width: 768px) {
+    flex-direction: column;
+  }
 `;
 
 export const Left = styled.div`
@@ -34,6 +38,10 @@ export const Image = styled.img`
   width: 80%;
   height: 100%;
   object-fit: cover;
+
+  @media only screen and (max-width: 768px) {
+    width: 100%;
+  }
 `;
 
 export const Ul = styled.ul`
