@@ -17,7 +17,7 @@ export default function MainMessage() {
             </Text>
           </Left>
           <ImageContainer>
-            <img src='/jules-website/background.jpg' alt='Jules Kerner' />
+            <img src='background.jpg' alt='Jules Kerner' />
           </ImageContainer>
         </Container>
       </Wrapper>
