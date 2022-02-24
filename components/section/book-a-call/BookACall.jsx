@@ -6,7 +6,7 @@ export default function BookACall() {
   return (
     <Wrapper>
       <Container>
-        <CalendlyCTA>{`Book a call`}</CalendlyCTA>
+        <CalendlyCTA>{`Do Value-Selling`}</CalendlyCTA>
       </Container>
     </Wrapper>
   );

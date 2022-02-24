@@ -19,11 +19,11 @@ export default function SecondMessage() {
           </Text>
           <Ul>
             <Li>
-              to make every touchpoint (content) valuable and meaningful to THEM
-            </Li>
-            <Li>
               to align your verticals’ “readiness to buy” with THEIR pressing
               issues
+            </Li>
+            <Li>
+              to make every touchpoint valuable and meaningful to THEM at first
             </Li>
             <Li>
               to match your pricing model to what THEY value the most from you

@@ -16,13 +16,16 @@ export const Left = styled.div`
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  width: 50%;
 `;
 
 export const Right = styled.div`
+  width: 50%;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 50px 0;
+  padding: 150px 50px;
+  background: ${({ theme }) => theme.color.background};
 
   p {
     margin-bottom: 40px;
@@ -35,7 +38,7 @@ export const SmallHeading = styled.h2`
 `;
 
 export const Image = styled.img`
-  width: 80%;
+  width: 100%;
   height: 100%;
   object-fit: cover;
 

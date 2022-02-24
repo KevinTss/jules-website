@@ -7,7 +7,9 @@ export default function TreeBoxes() {
       <Container>
         <Box>
           <InnerBox>
-            <Sentence>Risk-averse and have huge expectations</Sentence>
+            <Sentence>
+              Risk-averse + have huge expectations to deal with
+            </Sentence>
           </InnerBox>
         </Box>
         <Box>
@@ -17,7 +19,9 @@ export default function TreeBoxes() {
         </Box>
         <Box>
           <InnerBox>
-            <Sentence>Following complex security and legal standards</Sentence>
+            <Sentence>
+              Following complex security and legal standards to sign a deal
+            </Sentence>
           </InnerBox>
         </Box>
       </Container>

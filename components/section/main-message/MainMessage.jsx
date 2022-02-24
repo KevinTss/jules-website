@@ -8,7 +8,7 @@ export default function MainMessage() {
         <Container>
           <Left>
             <Heading>
-              We help Tech companies to accelerate their revenue growth by
+              We help B2B Tech companies to accelerate their revenue growth by
               closing large deals
             </Heading>
             <Text>

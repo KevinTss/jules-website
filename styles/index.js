@@ -41,13 +41,13 @@ export const Section = styled.section`
 `;
 
 export const Button = styled.button`
-  border-radius: 50px;
-  background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
+  background: #243e6d;
+  /* background-image: linear-gradient(to top, #09203f 0%, #537895 100%); */
   border: none;
-  padding: ${({ theme }) => `${theme.spacing.l} ${theme.spacing.xl}`};
+  padding: ${({ theme }) => `${theme.spacing.m} ${theme.spacing.l}`};
   color: white;
   font-weight: 700;
-  font-size: 22px;
+  font-size: 18px;
   cursor: pointer;
   text-decoration: none;
 `;
