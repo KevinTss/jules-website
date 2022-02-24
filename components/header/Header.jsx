@@ -18,7 +18,7 @@ export default function Header() {
         <Container>
           <Link href='/' passHref>
             <a>
-              <Image src='/logo.png' alt='Sales Konsul logo' />
+              <Image src='logo.png' alt='Sales Konsul logo' />
             </a>
           </Link>
           <Nav>
