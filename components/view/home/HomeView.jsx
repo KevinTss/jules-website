@@ -26,7 +26,18 @@ export default function HomeView() {
           </Container>
         </Wrapper>
         {/* <CenterText /> */}
-        <SecondMessageSection />
+        <SecondMessageSection
+          title={`We help grow your sales capacity within weeks, to win large deals
+            and grow faster`}
+          text={`Building a top sales system to nail your niche (better than others)
+            takes more than 1000s emails and 100s phone calls… In fact, you want`}
+          list={[
+            `to align your verticals’ “readiness to buy” with THEIR pressing
+            issues`,
+            `to make every touchpoint valuable and meaningful to THEM at first`,
+            `to match your pricing model to what THEY value the most from you`,
+          ]}
+        />
         <BookACall />
       </Main>
       <Footer />
