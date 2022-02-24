@@ -5,6 +5,8 @@ import Header from '../../header';
 import SecondMessageSection from '../../section/second-message';
 import CenterText from '../../section/center-text';
 import TreeBoxes from '../../section/tree-boxes';
+import { Wrapper, Container, Button } from '../../../styles';
+import CalendlyCTA from '../../calendly-cta';
 
 export default function ServicesView() {
   return (
@@ -56,6 +58,11 @@ export default function ServicesView() {
             },
           ]}
         />
+        <Wrapper>
+          <Container style={{ margin: '50px 0' }}>
+            <CalendlyCTA>{`Grow your revenues`}</CalendlyCTA>
+          </Container>
+        </Wrapper>
       </Main>
       <Footer />
     </>
