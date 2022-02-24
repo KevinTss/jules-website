@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: ${({ nb }) => `repeat(${nb || 3}, 1fr)`};
   grid-gap: 30px;
   width: 100%;
   margin: 100px 0;
@@ -10,7 +10,7 @@ export const Container = styled.div`
 
   @media only screen and (max-width: 768px) {
     grid-template-columns: none;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: ${({ nb }) => `repeat(${nb || 3}, 1fr)`};
   }
 `;
 
@@ -35,5 +35,10 @@ export const InnerBox = styled.div`
 
 export const Sentence = styled.p`
   font-size: 24px;
-  /* font-weight: 700; */
+`;
+
+export const Title = styled.h4`
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 40px;
 `;

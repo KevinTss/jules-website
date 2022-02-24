@@ -17,7 +17,15 @@ export default function HomeView() {
       <Header />
       <Main>
         <MainMessageSection />
-        <TreeBoxes />
+        <TreeBoxes
+          list={[
+            { text: `Risk-averse + have huge expectations to deal with` },
+            { text: `Hard to connect with many decision-makers` },
+            {
+              text: `Following complex security and legal standards to sign a deal`,
+            },
+          ]}
+        />
         <Wrapper>
           <Container style={{ margin: '50px 0' }}>
             <Link href='/' passHref style={{ margin: 'auto' }}>
