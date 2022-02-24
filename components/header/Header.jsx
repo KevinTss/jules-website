@@ -16,21 +16,25 @@ export default function Header() {
     <HeaderEl>
       <Wrapper>
         <Container>
-          <Image src='/logo.png' alt='Sales Konsul logo' />
+          <Link href='/' passHref>
+            <a>
+              <Image src='/logo.png' alt='Sales Konsul logo' />
+            </a>
+          </Link>
           <Nav>
             <Items>
               <Item>
-                <Link href='/' passHref>
+                <Link href='/about' passHref>
                   <NavLinkEl>About</NavLinkEl>
                 </Link>
               </Item>
               <Item>
-                <Link href='/' passHref>
+                <Link href='/services' passHref>
                   <NavLinkEl>Services</NavLinkEl>
                 </Link>
               </Item>
               <Item>
-                <Link href='/' passHref>
+                <Link href='/resources' passHref>
                   <NavLinkEl>Resources</NavLinkEl>
                 </Link>
               </Item>
